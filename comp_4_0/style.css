@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+  background-color: #e5e5e5;
+}
+.container_buttons {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+svg {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.4s ease;
+}
+.svg_accounts {
+  fill: #808080;
+}
+button:hover .svg_accounts {
+  fill: black;
+  transform: scale(1.05);
+}
+button:hover p {
+  color: black;
+  transform: scale(1.15);
+}
+.svg_categories {
+  stroke: #808080;
+}
+button:hover .svg_categories {
+  stroke: black;
+  transform: scale(1.05);
+}
+button:hover .svg_categories .part_one {
+  fill: black;
+}
+.svg_transactions {
+  stroke: #808080;
+}
+button:hover .svg_transactions {
+  stroke: black;
+  transform: scale(1.05);
+}
+.svg_budget {
+  fill: #808080;
+}
+button:hover .svg_budget {
+  fill: black;
+  transform: scale(1.05);
+}
+.svg_summary {
+  stroke: #808080;
+}
+button:hover .svg_summary {
+  stroke: black;
+  transform: scale(1.05);
+}
+button {
+  all: unset;
+  cursor: pointer;
+  padding: 10px;
+}
+.position_svg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+p {
+  color: #808080;
+  transition: transform 0.4s ease;
+}
