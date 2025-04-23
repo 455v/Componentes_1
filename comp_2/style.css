@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+}
+.container_circle {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  /* background-color: aqua;*/
+  border: 15px solid #dfdfdf;
+  border-radius: 100px;
+}
+.container_circle_text {
+  padding-top: 54px;
+}
+p {
+  padding-bottom: 4px;
+  text-align: center;
+}
+.text_expense_cash {
+  color: red;
+}
+.text_income {
+  font-size: 14px;
+  color: blue;
+}
